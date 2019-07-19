@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "outDir": "./build",
+        "sourceMap": true,
+        "target": "es6",
+        "declaration": true,
+        "composite": true
+    },
+    "include": [
+        "./src/**/*",
+        "./test/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "build",
+        "dist"
+    ]
+}

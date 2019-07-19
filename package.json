@@ -1,0 +1,28 @@
+{
+    "name": "URLBuilder",
+    "author": {
+        "name": "Martynas Jusevičius",
+        "email": "martynas@atomgraph.com",
+        "url": "https://github.com/AtomGraph"
+    },
+    "version": "0.0.1",
+    "keywords": [
+        "url",
+        "builder"
+    ],
+    "main": "./dist/URLBuilder.node.js",
+    "types": "./build/src/com/atomgraph/platform/query/URLBuilder.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "test": "mocha -r ts-node/register test/**/*.ts"
+    },
+    "devDependencies": {
+        "chai": "4.1.x",
+        "mocha": "4.1.x",
+        "ts-loader": "^5.3.3",
+        "ts-node": "^8.0.3",
+        "typescript": "^3.3.3333",
+        "webpack": "^4.29.6",
+        "webpack-cli": "^3.3.0"
+    }
+}
