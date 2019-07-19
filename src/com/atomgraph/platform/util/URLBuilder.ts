@@ -179,19 +179,6 @@ export class URLBuilder
     };
 
     /**
-     * Remove a query param
-     *
-     * @param string name
-     * @returns {URLBuilder}
-     */
-    public removeSearchParam(name: string): URLBuilder
-    {
-        this.url.searchParams.delete(name);
-
-        return this;
-    };
-
-    /**
      * Set username
      * 
      * @param string username
@@ -217,7 +204,7 @@ export class URLBuilder
     /**
      * Create a new instance from an existing URL.
      * 
-     * @param URL uri
+     * @param URL url
      * @returns {URLBuilder}
      */
     public static fromURL(url: URL): URLBuilder
