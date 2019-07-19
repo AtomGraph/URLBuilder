@@ -205,15 +205,7 @@ export class URLBuilder
     };
 
     /**
-     * Build URL
-     * 
-     * Example usage:
-     * 
-     * URLBuilder.newInstance().host("coolwebsite.com").path("en").path("news").path("1234");
-     * 
-     * Will return
-     * 
-     * "http://coolwebsite.com/en/news/1234"
+     * Build URL object
      * 
      * @returns {URL}
      */
