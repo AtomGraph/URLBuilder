@@ -217,10 +217,22 @@ export class URLBuilder
     /**
      * Create a new instance from an existing URL.
      * 
-     * @param string uri
+     * @param URL uri
      * @returns {URLBuilder}
      */
-    public static fromURL(url: string, base?: string): URLBuilder
+    public static fromURL(url: URL): URLBuilder
+    {
+        return new URLBuilder(url);
+    };
+
+    /**
+     * Create a new instance from string and optional base.
+     * 
+     * @param string url
+     * @param string base
+     * @returns {URLBuilder}
+     */
+    public static fromString(url: string, base?: string): URLBuilder
     {
         return new URLBuilder(new URL(url, base));
     };
