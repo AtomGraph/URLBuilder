@@ -1,4 +1,4 @@
-import { URLBuilder } from '../../../../../src/com/atomgraph/platform/util/URLBuilder';
+import { URLBuilder } from '../../../../../src/com/atomgraph/linkeddatahub/util/URLBuilder';
 import { expect } from 'chai';
 import 'mocha';
 

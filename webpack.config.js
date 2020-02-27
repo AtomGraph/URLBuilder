@@ -1,7 +1,7 @@
 const path = require('path');
 
 const nodeConfig = {
-  entry: './src/com/atomgraph/platform/util/URLBuilder.ts',
+  entry: './src/com/atomgraph/linkeddatahub/util/URLBuilder.ts',
   mode: 'development',
   devtool: 'inline-source-map',
   module: {
@@ -24,7 +24,7 @@ const nodeConfig = {
 };
 
 const webConfig = {
-  entry: './src/com/atomgraph/platform/util/URLBuilder.ts',
+  entry: './src/com/atomgraph/linkeddatahub/util/URLBuilder.ts',
   mode: 'development',
   devtool: 'inline-source-map',
   module: {
