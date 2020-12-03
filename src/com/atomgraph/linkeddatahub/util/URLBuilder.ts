@@ -21,7 +21,7 @@ export class URLBuilder
 
     protected constructor(url: URL)
     {
-        this.url = url;
+        this.url = new URL(url.toString()); // clone the object, so we don't change the original
     };
 
     /**
